@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctors Hub | منصة الأطباء</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Doctors <span>Hub</span></div>
+    <button id="langBtn">English</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="badge">COMMUNITY • KNOWLEDGE • EXCELLENCE</span>
+      <h1>بوابتك إلى عالم<br><span>الطب الحديث</span></h1>
+      <p>منصة متكاملة تجمع الأطباء للتعلم، تبادل الخبرات، ومناقشة الحالات السريرية.</p>
+      <div class="hero-buttons">
+        <a href="#cases" class="btn primary">استكشف الحالات السريرية</a>
+        <a href="#community" class="btn secondary">مجتمع الأطباء</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <a href="#cases" class="feature-card">
+        <div class="icon">🩺</div>
+        <h3>Clinical Cases</h3>
+        <p>حالات سريرية تفاعلية ومناقشات علمية.</p>
+      </a>
+
+      <a href="#library" class="feature-card">
+        <div class="icon">📚</div>
+        <h3>Medical Library</h3>
+        <p>مكتبة طبية ومراجع علمية موثوقة.</p>
+      </a>
+
+      <a href="#community" class="feature-card">
+        <div class="icon">👨‍⚕️</div>
+        <h3>Doctors Community</h3>
+        <p>تواصل وتبادل الخبرات مع زملائك الأطباء.</p>
+      </a>
+    </section>
+
+    <section id="cases" class="cases">
+      <div class="section-heading">
+        <span>LEARN • ANALYZE • DISCUSS</span>
+        <h2>حالات سريرية مميزة</h2>
+      </div>
+
+      <div class="case-card">
+        <span class="case-tag">PEDIATRICS</span>
+        <h3>حالة غامضة لدى طفل</h3>
+        <p>هل تستطيع الوصول إلى التشخيص الصحيح؟ اختبر مهاراتك السريرية.</p>
+        <button class="btn primary" onclick="alert('قريباً: الحالة التفاعلية')">ابدأ الحالة ←</button>
+      </div>
+
+      <div class="case-card">
+        <span class="case-tag">INTERNAL MEDICINE</span>
+        <h3>لغز التشخيص</h3>
+        <p>حلل الأعراض والعلامات الحيوية للوصول إلى التشخيص.</p>
+        <button class="btn primary" onclick="alert('قريباً: الحالة التفاعلية')">ابدأ الحالة ←</button>
+      </div>
+    </section>
+
+    <section id="library" class="library">
+      <h2>المكتبة الطبية</h2>
+      <p>مصدر معرفتك الطبية المستمر.</p>
+    </section>
+
+    <section id="community" class="community">
+      <h2>مجتمع الأطباء</h2>
+      <p>معاً نبني مجتمعاً طبياً أقوى.</p>
+      <a href="https://t.me/DoctorsHubIQ_bot" class="btn primary">انضم عبر Telegram</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Doctors Hub — Built for Doctors</p>
+  </footer>
+
+</body>
+</html>
